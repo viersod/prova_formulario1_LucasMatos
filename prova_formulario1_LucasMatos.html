@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVA FORMULÁRIO</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+    <h1>Exemplos de Formulário em HTML</h1>
+    <form method="get" action="https://google.com" target="_blank">
+    <div class="linha"></div>
+    <h2>Exemplo 1</h2>
+    <input type="text" name="name" placeholder="Nome"required>
+    <input type="e-mail" name="e-mail" placeholder="Email"required>
+    <input type="tel" name="tel" placeholder="Celular"required>
+    <input type="password" name="password" placeholder="Senha"required>
+    <input type="submit" name="Cadastrar" value="Cadastrar" id="submit1">
+    <div class="linha"></div>
+    <h2>Exemplo 2</h2>
+    <textarea rows="5" cols="70"></textarea>
+    <div class="linha"></div>
+    <h2>Exemplo 3</h2>
+    <fieldset id="ex3">
+        <legend>Formulário</legend>
+        <label>Nome:<input type="text" name="name" id="exx3" required></label>
+        <br>
+        <label>Sexo:<input type="radio" name="sexo" required>Masculino
+        <input type="radio" name="sexo" required>Feminino</label>
+        <br>
+        <label>País:</label>
+        <select>
+            <option>Escolha uma opção</option>
+            <option>Brasil</option>
+            <option>China</option>
+            <option>Itália</option>
+            <option>Espanha</option>
+            <option>Cuba</option>
+            <option>Jamaica</option>
+        </select><br>
+        <label>Mensagem:</label><br>
+        <textarea rows="6" cols="30" id="exx3"></textarea><br><br>
+        <input type="checkbox" name="newsletter">Assinar Newsletter?
+        <br>
+        <input type="submit" name="Cadastrar" value="Enviar" id="submit2">
+    </fieldset>
+    <div class="linha"></div>
+    <h2>Exemplo 4</h2>
+    <input type="search" name="q">
+    <button type="submit" id="submit3">Clique para pesquisar</button>
+    <div class="linha"></div>
+    <h2>Exemplo 5</h2>
+    <fieldset id="ex5">
+        <legend>Selecione a cor que mais agrada?</legend>
+        <input type="checkbox" name="cor">azul
+        <input type="checkbox" name="cor">vermelho
+        <input type="checkbox" name="cor">verde
+        <input type="checkbox" name="cor">amarelo
+    </fieldset>
+    </form>
+</body>
+
+</html>
